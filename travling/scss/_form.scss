@@ -1,0 +1,192 @@
+@import"variables";
+
+.title{
+   background-color: $primary-Color;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+   .text{
+       h1{
+           color: $accent-Color;
+           font-family: $fonts-Family;
+           font-weight: bold;
+           font-size: 50px;
+       }
+       p{
+        color: black;
+        font-family: $font-Family;
+    
+        font-size: 20px;  
+       }
+   }
+   form{
+       position: relative;
+      
+       
+       input{
+         width: 50%;
+           border: none;
+           border-radius: 50px;
+        //    width: 340px;
+           height: 50px;
+        //   display: inline-block;
+           
+           
+       }
+button{
+   position: absolute;
+   top: 0;
+right: 20%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius:50px ;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    font-family: $fonts-Family;
+    font-weight: bold;
+    
+  
+}
+button:hover{
+   background-color: $secondary-Color; 
+   
+}
+       
+   }
+}
+
+
+@media(max-width:991px){
+    .title{
+      padding-top: 80px;
+     
+        .text{
+            h1{
+               
+                font-size: 40px;
+            }
+            p{
+             font-size: 18px;  
+            }
+        }
+        form{
+            position: relative;
+           
+            
+            input{
+              width: 60%;
+                border: none;
+                border-radius: 50px;
+             //    width: 340px;
+                height: 40px;
+                display: inline-block;
+                
+                
+            }
+     button{
+     
+      
+         width: 120px;
+         height: 40px;
+         font-size: 15px;
+         
+       
+         
+       
+     }
+            
+        }
+     } 
+}
+
+@media(max-width:768px){
+    .title{
+      padding-top: 80px;
+     
+        .text{
+            h1{
+               
+                font-size: 40px;
+            }
+            p{
+             font-size: 18px;  
+            }
+        }
+        form{
+            position: relative;
+           
+            
+            input{
+              width: 60%;
+                border: none;
+                border-radius: 50px;
+             //    width: 340px;
+                height: 40px;
+                display: inline-block;
+                
+                
+            }
+     button{
+     
+      
+         width: 130px;
+         height: 40px;
+         font-size: 15px;
+         
+       
+         
+       
+     }
+            
+        }
+     } 
+}
+
+
+@media(max-width:512px){
+    .title{
+      padding-top: 80px;
+     
+        .text{
+            h1{
+               
+                font-size: 40px;
+            }
+            p{
+             font-size: 18px;  
+            }
+        }
+        form{
+            position: relative;
+           
+            
+            input{
+              width: 60%;
+                border: none;
+                border-radius: 50px;
+             //    width: 340px;
+                height: 40px;
+                display: inline-block;
+                
+                
+            }
+     button{
+     
+      
+         width: 100px;
+         height: 40px;
+         font-size: 13px;
+         
+       
+         
+       
+     }
+            
+        }
+     } 
+}
+
+
+

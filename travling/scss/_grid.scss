@@ -1,0 +1,309 @@
+ @import"variables";
+ .grid{
+    overflow-x: hidden;
+    overflow-y: hidden;
+width: 100%;
+    /* margin: auto; */
+    //  height: 650px;
+
+     
+    .text{
+        h1{
+            font-size:45px ;
+            font-family:$fonts-Family ;
+            font-weight: bold;
+            color: $accent-Color;
+            margin-top: 130px;
+        }
+        p{
+                    font-family:$font-Family ;
+                    font-size: 24px;
+                    color: $accent-Color;
+                }
+                button{
+                    border: none;
+                    width: 280px;
+                    height: 60px;
+                    border-radius: 50px;
+                 color: $accent-Color;
+                 background-color: #e2a355;
+                 font-family: $fonts-Family;
+                 font-weight:bold;
+                 font-size: 20px;
+                 word-spacing: 5px;
+                 letter-spacing: 3px;
+                 outline: none;
+               
+                }
+                button:hover{
+                    background-color: $accent-Color;
+                    color: $secondary-Color;
+                }
+    }
+ 
+}
+@media(max-width: 991px){
+    /* .grid{
+width: 100%;
+width: auto;
+    } */
+   .grid {
+    img{
+        width: 100%;
+    }
+    button{
+        margin-bottom: 130px;
+     
+   
+    }
+
+   }
+}
+@media(max-width: 768px){
+    /* .grid{
+width: 100%;
+width: auto;
+    } */
+   .grid {
+    img{
+        width: 100%;
+    }
+  
+    .text{
+        h1{
+            font-size:40px ;
+            font-family:$fonts-Family ;
+            font-weight: bold;
+            color: $accent-Color;
+            margin-top: 130px;
+        }
+        p{
+                    font-family:$font-Family ;
+                    font-size: 22px;
+                    color: $accent-Color;
+                }
+                button{
+                    border: none;
+                    width: 250px;
+                    height: 50px;
+                    border-radius: 50px;
+                 color: $accent-Color;
+                 background-color: #e2a355;
+                 font-family: $fonts-Family;
+                 font-weight:bold;
+                 font-size: 20px;
+                 word-spacing: 5px;
+                 letter-spacing: 3px;
+               
+                }
+    }
+   }
+}
+@media(max-width: 512px){
+    /* .grid{
+width: 100%;
+width: auto;
+    } */
+   .grid {
+    img{
+        width: 100%;
+    }
+  
+    .text{
+        margin-left: 15px !important;
+       
+        h1{
+            font-size:33px ;
+            font-family:$fonts-Family ;
+            font-weight: bold;
+            color: $accent-Color;
+            margin-top: 100px;
+        }
+        p{
+                    font-family:$font-Family ;
+                    font-size: 18px;
+                    color: $accent-Color;
+                }
+                button{
+                    border: none;
+                    width: 220px;
+                    height: 45px;
+                    border-radius: 50px;
+                 color: $accent-Color;
+                 background-color: #e2a355;
+                 font-family: $fonts-Family;
+                 font-weight:bold;
+                 font-size: 18px;
+                 word-spacing: 5px;
+                 letter-spacing: 3px;
+                 margin-bottom: 100px;
+               
+                }
+    }
+   }
+}
+
+//  *{
+//         margin: 0; 
+//  padding: 0; 
+//  border: 0; 
+//  outline: 0; 
+//  font-size: 100%; 
+ //  vertical-align: baseline; 
+//  background: transparent;
+//  }
+ 
+// .grid{
+    
+// overflow-x: hidden;
+// overflow-y: hidden;
+// .section-container{
+//     height: 600px;
+//     --bs-gutter-x:1.5rem;
+//     --bs-gutter-y:0;
+//     display: flex;
+//    flex-wrap: wrap;
+//    margin-top: calc(var( --bs-gutter-y)*-1);
+//    margin-right: calc(var( --bs-gutter-x)/-2);
+//    margin-left: calc(var( --bs-gutter-x)/-3);
+//    .columns{
+//     background-color: #7f7770;
+//        flex: 0 0  auto;
+//        width: 50%;
+      
+//        .image{
+//            background-position: center;
+//            background-repeat: no-repeat;
+//            background-size: cover;
+           
+//        }
+//        .content{
+//            padding: 40px 50px;
+    
+          
+
+//        }
+//        h2{
+//         font-family:$fonts-Family ;
+//         font-size: 45px;
+//         color: $accent-Color;
+//         font-weight: bold;
+//         margin-top: 130px;
+//     }
+//     p{
+//         font-family:$font-Family ;
+//         font-size: 24px;
+//         color: $accent-Color;
+//     }
+//     button{
+//         border: none;
+//         width: 280px;
+//         height: 60px;
+//         border-radius: 50px;
+//      color: $accent-Color;
+//      background-color: #e2a355;
+//      font-family: $fonts-Family;
+//      font-weight:bold;
+//      font-size: 20px;
+//      word-spacing: 5px;
+//      letter-spacing: 3px;
+   
+//     }
+ 
+//    }
+// }
+// }
+
+// @media(max-width:991px){
+//     .grid{
+       
+//         .section-container{
+        
+//            .columns{
+//                h2{
+                
+//                 font-size: 45px;
+               
+//             }
+//             p{
+                
+//                 font-size: 20px;
+                
+//             }
+//             button{
+              
+//                 width: 240px;
+//                 height: 50px;
+           
+           
+//             }
+//            }
+//         }
+//         }   
+// }
+
+
+
+
+
+// @media(max-width:774px){
+//     .grid{
+       
+//         .section-container{
+//            flex-flow: row wrap;
+//            .columns{
+             
+//                .image{
+//                   display: block;
+//                   order: 1;
+//                   width: 100%;
+//                   height: 250px;
+                   
+//                }
+//                .content{
+//                 display: block;
+//                 order: 2; 
+//                 width: 100%;
+//                 padding: 20px 35px;
+                  
+        
+//                }
+//                h2{
+//                margin-bottom: 5px;
+//                display: block;
+//                order: 2; 
+//                width: 100%;
+//                padding: 20px 35px;
+//             }
+//             p{
+//                 font-family:$font-Family ;
+//                 font-size: 24px;
+//                 color: $secondary-Color;
+//                 display: block;
+//                 order: 2; 
+//                 width: 100%;
+//                 padding: 20px 35px;
+//             }
+//             button{
+//                 border: none;
+//                 width: 280px;
+//                 height: 60px;
+//                 border-radius: 50px;
+//              color: $accent-Color;
+           
+//              font-family: $fonts-Family;
+//              font-weight:500px;
+//              font-size: 20px;
+//              word-spacing: 5px;
+//              letter-spacing: 3px;
+//              display: block;
+//              order: 2; 
+//              width: 100%;
+//              padding: 20px 35px;
+           
+//             }
+//            }
+//         }
+//         }
+         
+// }

@@ -1,0 +1,67 @@
+@import"variables";
+
+.world{
+    background-image: url(../img/mountain.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom:  300px;
+ 
+   h1{
+     margin-top: 300px;
+       color: #deb37e;
+       font-family: $fonts-Family;
+       font-weight: 800;
+       font-size: 60px;
+       font-style: italic;
+       text-align: right;
+       text-shadow: 2px  4px 5px  gray ;
+   }
+   h2{
+    color: #54524f;
+    font-family: $fonts-Family;
+    font-weight: 800;
+    font-size: 60px;
+    font-style: italic;
+    text-align: right;
+    text-shadow: 2px  4px 5px  gray ;
+}
+}
+
+@media(max-width:768px){
+  .world{
+
+  
+   padding-bottom:  200px;
+ 
+   h1{
+     margin-top: 200px;
+      
+      
+   }
+   h2{
+   
+   
+    font-size: 60px;
+ 
+}
+}
+}
+@media(max-width:390px){
+  .world{
+
+  
+   padding-bottom:  140px;
+ 
+   h1{
+     margin-top: 140px;
+     font-size: 50px;
+      
+   }
+   h2{
+   
+   
+    font-size: 50px;
+ 
+}
+}
+}

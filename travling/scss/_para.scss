@@ -1,0 +1,75 @@
+@import"variables";
+.para{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .text{
+        h1{
+            color: #deb37e;
+            font-family: $fonts-Family;
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+        p{
+           margin-bottom: 100px;
+            font-family: $font-Family;
+            font-size: 18px;
+            line-height: 1.2;
+              
+        }
+    }
+        
+        .co{
+        font-size: 100px;
+        font-family: $fonts-Family;
+        font-weight: bold;
+        font-style: italic;
+    }
+    p{
+        color: black;
+        font-family: $fonts-Family;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    h4{
+        color: black;
+        font-family: $fonts-Family;
+        font-weight:bold;
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:512px){
+    .para{
+        padding-top: 80px;
+    padding-bottom: 80px;
+        .text{
+            h1{
+               
+                font-size: 25px;
+               
+    
+            }
+            p{
+              
+                font-size: 16px;
+              
+                  
+            }
+        }
+            
+            .co{
+            font-size: 90px;
+           
+        }
+        p{
+        
+            font-size: 18px;
+        }
+        h4{
+           
+            font-size: 18px;
+        }
+    } 
+}

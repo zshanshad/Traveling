@@ -1,0 +1,106 @@
+@import"variables";
+
+header{
+    
+    ul{
+        margin-left: 350px;
+        
+        li{
+          
+         a{ 
+             
+            text-decoration: none;
+             color:$secondary-Color;
+            
+             font-family: $fonts-Family;
+             font-weight: bold;
+             letter-spacing: 2px;
+         }
+         a:hover{
+            color: $primary-Color;
+         }
+         
+
+          
+        }
+    }
+    form{
+    
+        button{
+            
+            background-color:$bg-btn !important;
+            color: $accent-Color !important;
+            width: 140px !important;
+            border-radius: 50px !important;
+
+            a{
+                text-decoration: none !important;
+                color: $accent-Color !important;
+                margin-left: 20px !important;
+                i:hover{
+                    color: $primary-Color;
+                }
+            }
+            
+            
+        }
+       
+      
+    }
+   
+}
+
+@media(max-width:1200px){
+    header{
+        ul{
+            margin-left: 150px;
+           
+            li{
+                
+             a{ 
+                 text-decoration: none;
+                 color:$secondary-Color;
+                 font-family: $fonts-Family;
+                 font-weight: bold;
+                 letter-spacing: 2px;
+             }
+    
+              
+            }
+        }
+       
+        }
+    }
+
+   @media(max-width:991px){
+       header{
+           text-align: center;
+           .navbar{
+            button{
+                background-color: $secondary-Color !important;
+               border-top-left-radius: 20px;
+               outline: none;
+            }
+            button:hover{
+                background-color: $primary-Color !important;
+                border-top-left-radius: 20px; 
+            }
+        
+           }
+           ul{
+          margin-left: 0px ;
+        
+         
+         
+         li{
+             margin-right: 0px !important;
+             .nav-item{
+                margin-right: 0px!important;
+             }
+         }
+       }
+   }
+         
+    
+      
+   }
